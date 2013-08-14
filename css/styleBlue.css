@@ -27,7 +27,11 @@ header, section, article, footer{
 	border-radius:8px !important; /* Required */
 	padding:10px 20px 20px 20px !important; /* Required */
 	margin:10px;
-	text-align:center;
+	/* Removed text-align:center; */
+}
+
+header{
+	height:120px;
 }
 
 /* Navigational List */
@@ -72,7 +76,7 @@ h4{
 	font-family:verdana;
 	font-size:24px;
 	font-weight:bold;
-	font-variant:small-caps;
+	/* Removed font-variant:small-caps; */
 }
 
 /*Article headings */
@@ -82,7 +86,7 @@ h2{
 	padding:7px 10px 12px 30px !important; /* Required */
 	margin-left:-30px !important; /* Required */
 	text-shadow:0px 1px 0px #913951 !important; /* Required */
-	font-variant:small-caps;
+	/* Removed font-variant:small-caps; */
 	font-family:verdana;
 	font-size:28px;
 	font-weight:bold;
@@ -91,6 +95,10 @@ h2{
 /*
 * Additional CSS below
 */
+h2,h3,h4,h5,h6{
+	text-transform: uppercase;
+}
+
 h1{
 	font-family:verdana;
 	font-size:40px;
@@ -98,13 +106,19 @@ h1{
 	font-weight:bold;
 }
 
-
 h3{
 	font-family:verdana;
-	font-size:40px;
+	font-size:24px;
 	font-weight:bold;
 	text-align: center;
-	font-variant:small-caps;
+	/* Removed font-variant:small-caps; */
+}
+
+h5{
+	font-family:verdana;
+	font-size:21px;
+	font-weight:bold;
+	text-transform: uppercase;
 }
 
 img[alt="Blue Wonderland"]{
