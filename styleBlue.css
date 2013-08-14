@@ -1,0 +1,130 @@
+/* Declare font */
+@font-face {
+	font-family:Pacifico;
+	src:url('Pacifico.ttf');
+	font-family:Pacifico;
+}
+
+/* Body */
+body{
+	background-image: url('img/blue_background.jpg'); /* Required */
+	font-family:Pacifico; /* Required */
+	margin:20px; /* Required */
+	width:1200px;
+}
+
+/* Links */
+a{
+	font-family:georgia; /* Required */
+	font-color:#66CCFF; /* Required */
+	font-weight:700; /* Required */
+}
+
+/* Header, section, article, footer */
+header, section, article, footer{
+	background-color:#007ACC; /* Required */
+	border:1px solid #E7E2d7; /* Required */
+	border-radius:8px; /* Required */
+	padding:10px 20px 20px 20px; /* Required */
+	margin:10px;
+	text-align:center;
+}
+
+/* Navigational List */
+nav ul{}
+
+/* Right Section */
+aside{
+	background-color:#007ACC;
+	border:1px solid;
+	border-radius:8px;
+	border-color:#E7E2D7;
+	padding:10px 20px 20px 20px;
+	margin:10px;
+	float:left;
+	width:200px;
+	line-height:30px;
+}
+
+/* Left Section */
+nav{
+	background-color:#007ACC;
+	border:1px solid;
+	border-radius:8px;
+	border-color:#E7E2D7;
+	padding:10px 20px 20px 20px;
+	margin:10px;
+	float:left;
+	width:200px;
+	height:auto;
+}
+
+/* Section Headings */
+h4{
+	color:#5CE6E6; /* Required */
+	text-shadow:0px 1px 0px #403232; /* Required */
+	padding:2px 10px 2px 10px; /* Required */
+	font-family:verdana;
+	font-size:24px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+/*Article headings */
+h2{ 
+	color:#0000E6; /* Required */
+	opacity:0.5; /* Required */
+	padding:7px 10px 12px 30px; /* Required */
+	margin-left:-30px; /* Required */
+	text-shadow:0px 1px 0px #913951; /* Required */
+	font-variant:small-caps;
+	font-family:verdana;
+	font-size:28px;
+	font-weight:bold;
+}
+
+/*
+* Additional CSS below
+*/
+
+h1{
+	font-family:verdana;
+	font-size:40px;
+	text-align:center;
+	font-weight:bold;
+}
+
+
+h3{
+	font-family:verdana;
+	font-size:40px;
+	font-weight:bold;
+	text-align: center;
+	font-variant:small-caps;
+}
+
+img[alt="Blue Wonderland"]{
+	position:absolute;
+	left:50px;
+	top:40px;
+}
+
+div{
+	text-align:center;
+	padding:8px 0px 0px 0px;
+}
+
+article{
+	margin:10px;
+	float:left;
+	width:610px;
+	line-height:30px;
+}
+
+
+footer{
+	clear:both;
+	font-size:12px;
+	text-align: center;
+}
+
