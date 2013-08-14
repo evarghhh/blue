@@ -10,7 +10,7 @@ body{
 	background-image: url('../img/blue_background.jpg') !important; /* Required */
 	font-family:Pacifico !important; /* Required */
 	margin:20px !important; /* Required */
-	width:1200px;
+	/* Removed width:1200px; */
 }
 
 /* Links */
@@ -33,37 +33,42 @@ header, section, article, footer{
 /* Navigational List */
 nav ul{}
 
-/* Right Section */
-aside{
-	background-color:#007ACC;
-	border:1px solid;
-	border-radius:8px;
-	border-color:#E7E2D7;
-	padding:10px 20px 20px 20px;
-	margin:10px;
-	float:left;
-	width:200px;
+article{
+	margin: 20px 280px; /* Removed margin:10px; */
 	line-height:30px;
+	/* Removed float:left; */
+	/* Removed width:610px; */
 }
 
-/* Left Section */
-nav{
+/* Left and Right Section Common */
+aside, nav{
 	background-color:#007ACC;
 	border:1px solid;
 	border-radius:8px;
 	border-color:#E7E2D7;
 	padding:10px 20px 20px 20px;
 	margin:10px;
-	float:left;
 	width:200px;
+	line-height:30px;
 	height:auto;
+	/* Removed float:left; */
+}
+
+/* Left Section Only */
+nav{
+	float:left;
+}
+
+/* Right Section Only */
+aside{
+	float:right;
 }
 
 /* Section Headings */
 h4{
 	color:#5CE6E6 !important; /* Required */
 	text-shadow:0px 1px 0px #403232 !important; /* Required */
-	padding:2px 10px 2px 10px !important; /* Required */
+	padding:2px 10px !important; /* Required */
 	font-family:verdana;
 	font-size:24px;
 	font-weight:bold;
@@ -86,7 +91,6 @@ h2{
 /*
 * Additional CSS below
 */
-
 h1{
 	font-family:verdana;
 	font-size:40px;
@@ -112,13 +116,6 @@ img[alt="Blue Wonderland"]{
 div{
 	text-align:center;
 	padding:8px 0px 0px 0px;
-}
-
-article{
-	margin:10px;
-	float:left;
-	width:610px;
-	line-height:30px;
 }
 
 
