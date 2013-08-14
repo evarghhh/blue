@@ -1,13 +1,13 @@
 /* Declare font */
 @font-face {
 	font-family:Pacifico;
-	src:url('Pacifico.ttf');
+	src:url('fonts/Pacifico.ttf');
 	font-family:Pacifico;
 }
 
 /* Body */
 body{
-	background-image: url('img/blue_background.jpg'); /* Required */
+	background-image: url('../img/blue_background.jpg'); /* Required */
 	font-family:Pacifico; /* Required */
 	margin:20px; /* Required */
 	width:1200px;
