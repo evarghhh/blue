@@ -1,7 +1,7 @@
 ## Overview
 You will need to edit the HTML first in order to create a little bit more structure and semantics that there is no (i.e. reduce the number of div tags, introduce structural grouping tags e.g. header, section, nav, footer)
 
-The following screenshot should only be used as a guide. It is by no means a good example of a good interface design – you will be judged by how well you can define CSS to improve the CSS:
+The following screenshot should only be used as a guide. It is by no means a good example of a good interface design – you will be judged by how well you can define CSS to improve the CSS.
 
 ![alt tag](http://sydney.edu.au/engineering/it/~info1003/reference/3-POSITION/blue.jpg)
 
